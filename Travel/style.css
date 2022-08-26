@@ -16,5 +16,84 @@ header nav{
     margin:auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    padding: 3px 15px;
+
+}
+header nav ul li:nth-last-child(1){
+    background: black;
+    border-radius: 20px;
+
+}
+header nav ul li:nth-last-child(1) a{
+    color:white;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.3s linear;
+    
+}
+header nav ul li a:hover{
+    color:grey;
+
+
+    
+}
+header nav .bi-three-dots{
+    display: none;
+}
+header .content{
+    border:2px solid yellow;
+    position: relative;
+    width: 100%;
+    height: 80%;
+
+}
+header .content::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    background: url(img/background1.png) no-repeat center center;
+    z-index: -1;
+}
+header .content .cont-box{
+    width: 500px;
+    padding: 30px;
+    height: auto;
+    color: white;
+}
+header .content .cont-box h1{
+    line-height: 40px;
+    color: white;
+    font-weight: 800;
+}
+header .content .cont-box p{
+    font-size: 14px;
+}
+header .content .cont-box button{
+    background: black;
+    border-radius: 65px;
+    height: 37px;
+    width: 148px;
+    border: 2px solid black;
+}
+header .content .cont-box button a{
+    text-decoration: none;
+    color: white;;
+}
+header .content .cont-box button a:hover{
+}
+
