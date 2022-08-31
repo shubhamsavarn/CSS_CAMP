@@ -122,13 +122,14 @@ header .content .trip-box .srch-box{
     background: white;
     border-radius: 5px;
     z-index: 1;
+    padding: 10px 20px;
 }
 header .content .trip-box .srch-box .card{
     margin: 0;
-    padding-left: 0;
+    padding: 0px 20px;
     width: 200px;
     height: 100%;
-    border: 1px solid black;
+    margin-top: 10px;
 
 }
 header .content .trip-box .srch-box .card h4{
@@ -142,7 +143,6 @@ header .content .trip-box .srch-box .card h4 .bi{
     font-size: 13px;
     margin: 2px 0px 0px 5px;
     transition: .3s linear;
-
 }
 header .content .trip-box .srch-box .card input{
     margin:3px;
@@ -150,6 +150,30 @@ header .content .trip-box .srch-box .card input{
     border: none;
     outline: none;
     font-size:13px;
+
+}
+header .trip-box .srch-box input[type='button']{
+    border-radius: 20px;
+    background: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s linear;
+
+}
+header .trip-box .srch-box input[type='button']:hover{
+    background: gray;
+
+}
+header .trip-box .travel_bx{
+    width: 100%;
+    border: 2px solid green;
+    height: 200px;
+    top:40px;
+    position: relative;
+    margin: auto;
 
 }
 
